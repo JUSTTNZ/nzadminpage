@@ -15,11 +15,11 @@ export const ThemeProvider = ({children}) => {
     }
 
     return (
-        <ThemeContext.provider value = {{
+        <ThemeContext.Provider value = {{
             theme, toggleTheme
         }}>
             {children}
-            </ThemeContext.provider>
+            </ThemeContext.Provider>
     )
 }
 
